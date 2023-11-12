@@ -12,11 +12,11 @@ const WhatTheySay = () => {
         <section className='whatTheySay'>
             <Container>
                 <Row>
-                    <div className="theySayText" data-aos="zoom-out-up">
+                    <div className="theySayText" data-aos="zoom-in">
                         <h1>What They Say</h1>
                     </div>
                     <Col md={4}>
-                        <div className="testimonial" data-aos="zoom-out-up">
+                        <div className="testimonial" data-aos="zoom-in">
                             <div className="image">
                                 <img src={testimonial1} alt="" />
                             </div>
@@ -25,7 +25,7 @@ const WhatTheySay = () => {
                         </div>
                     </Col>
                     <Col md={4}>
-                        <div className="testimonial" data-aos="zoom-out-up">
+                        <div className="testimonial" data-aos="zoom-in">
                             <div className="image">
                                 <img src={testimonial2} alt="" />
                             </div>
@@ -34,7 +34,7 @@ const WhatTheySay = () => {
                         </div>
                     </Col>
                     <Col md={4}>
-                        <div className="testimonial" data-aos="zoom-out-up">
+                        <div className="testimonial" data-aos="zoom-in">
                             <div className="image">
                                 <img src={testimonial3} alt="" />
                             </div>
