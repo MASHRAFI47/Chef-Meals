@@ -13,18 +13,18 @@ const MeatPlans = () => {
             <Container>
                 <Row>
                     <Col md={5}>
-                        <div className="image" data-aos="fade-right">
+                        <div className="image" data-aos="zoom-in">
                             <img src={mealplans1} alt="" className='img-fluid mealplansImage' />
                         </div>
                     </Col>
                     <Col md={7}>
-                        <div className="mealPlansText" data-aos="fade-left">
+                        <div className="mealPlansText" data-aos="zoom-in">
                             <h6>Smoked Milkfish Garden Salad</h6>
                             <h1>April 2021 <br />Meal Plans</h1>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eligendi ullam explicabo necessitatibus laudantium veritatis eius magni id, dignissimos dolore.</p>
                         </div>
                         <div className="imageOrder">
-                            <Row data-aos="flip-up">
+                            <Row data-aos="zoom-in">
                                 <Col sm={6}>
                                     <div className="image">
                                         <img src={meal4} alt="" className='img-fluid'/>
