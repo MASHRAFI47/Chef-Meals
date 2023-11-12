@@ -11,10 +11,10 @@ import meals2 from '../../images/meals2.png'
 const SpecialPlans = () => {
   return (
     <section className={style.specialPlans}>
-        <div className={style.sideImage1} data-aos="fade-right">
+        <div className={style.sideImage1} data-aos="zoom-in">
             <img src={meals1} alt="" className={style.img1}/>
         </div>
-        <div className={style.sideImage2} data-aos="fade-left">
+        <div className={style.sideImage2} data-aos="zoom-in">
             <img src={meals2} alt="" className={style.img2} />
         </div>
         <Container fluid>
