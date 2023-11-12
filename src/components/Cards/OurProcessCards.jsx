@@ -16,7 +16,7 @@ const OurProcessCards = () => {
             <Container>
                 <Row>
                     <Col md={4}>
-                        <Card className={style.card} data-aos="fade-down">
+                        <Card className={style.card}>
                             <Card.Body className={style.cardBody}>
                                 <Card.Title className={style.cardTitle}>Pick a meal plan</Card.Title>
                                 <div className={style.cardImage}>
@@ -29,7 +29,7 @@ const OurProcessCards = () => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card className={style.card} data-aos="fade-down">
+                        <Card className={style.card}>
                             <Card.Body className={style.cardBody}>
                                 <Card.Title className={style.cardTitle}>Ready to checkout</Card.Title>
                                 <div className={style.cardImage}>
@@ -42,7 +42,7 @@ const OurProcessCards = () => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card className={style.card} data-aos="fade-down">
+                        <Card className={style.card}>
                             <Card.Body className={style.cardBody}>
                                 <Card.Title className={style.cardTitle}>Sit back and relax</Card.Title>
                                 <div className={style.cardImage}>
