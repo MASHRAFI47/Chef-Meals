@@ -1,0 +1,40 @@
+.cardImage {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.card {
+    border-radius: 15px !important;
+
+
+    background-color: green;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.card:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.cardBody {
+    border-radius: 15px !important;
+    background-color: #ffece1 !important;
+
+}
+
+.cardTitle {
+    color: #F65A00 !important;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px !important;
+}
+
+.cardText {
+    text-align: center;
+    color: #F65A00;
+    margin-bottom: 50px !important;
+}
